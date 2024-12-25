@@ -1,3 +1,5 @@
+using System;
+
 namespace Catalog.DAL.Entities {
     public class Location {
         public int Id { get; set; }
