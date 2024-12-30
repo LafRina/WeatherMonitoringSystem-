@@ -1,10 +1,10 @@
-
+using System;
+using Catalog.DAL.Entities;
 using Catalog.BLL.DTO;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace BLL.Services
+namespace BLL.Services.Interfaces
 {
-    public interface ILocationServices : IServicess
+    public interface ILocationServices : IServices<LocationDTO>
     {
        
     }
