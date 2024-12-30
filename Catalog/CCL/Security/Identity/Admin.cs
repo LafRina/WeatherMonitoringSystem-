@@ -1,9 +1,9 @@
 namespace Security.Identity
 {
-    public class Admin : User
+    public class Admin : UserBase
     {
-        public Admin(int userId, string name, int osbbId) 
-            : base(userId, name, osbbId, nameof(Admin))
+        public Admin(int userId, string name) 
+            : base(userId, name, nameof(Admin))
         {
         }
     }

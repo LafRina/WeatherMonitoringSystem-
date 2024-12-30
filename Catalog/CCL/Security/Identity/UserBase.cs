@@ -1,8 +1,8 @@
 namespace Security.Identity
 {
-    public abstract class User 
+    public abstract class UserBase
     {
-        public User(int userId, string name, string userType)
+        public UserBase(int userId, string name, string userType)
         {
             UserId = userId;
             Name = name;
